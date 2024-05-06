@@ -1,0 +1,48 @@
+[
+    {
+        "id":"1",
+        "title":"Web Development",
+        "image":"https://www.internee.pk/web-development.html"
+    },
+    {
+        "id":"2",
+        "name":"Mobile Development",
+        "title":"Lorem ipsum similarpng",
+        "price":"0",
+        "category":"free",
+        "image":"https://www.internee.pk/mobile-development.html"
+    },
+    {
+        "id":"3",
+        "name":"Graphic",
+        "title":"Lorem ipsum similarpng",
+        "price":"0",
+        "category":"paid",
+        "image":"https://www.internee.pk/graphic.html"
+    },
+    {
+        "id":"4",
+        "name":"c",
+        "title":"Lorem ipsum similarpng",
+        "price":"0",
+        "category":"free",
+        "image":"https://www.internee.pk/chatbot.html"
+    },
+    {
+        "id":"3",
+        "name":"storybook",
+        "title":"Lorem ipsum similarpng",
+        "price":"0",
+        "category":"free",
+        "image":"https://www.internee.pk/images/jobs/analysis.webp"
+    },
+    {
+        "id":"3",
+        "name":"storybook",
+        "title":"Lorem ipsum similarpng",
+        "price":"0",
+        "category":"free",
+        "image":"https://www.internee.pk/images/jobs/analysis.webp"
+        
+    }
+]

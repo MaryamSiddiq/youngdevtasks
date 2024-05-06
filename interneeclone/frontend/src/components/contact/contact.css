@@ -1,0 +1,58 @@
+/*Timeline*/
+
+#sectimeline{
+
+    padding-left: 20%;
+    padding-right: 4%;
+    margin-top: 7%;
+}
+  .timeline-container {
+    height: 160vh;
+  }
+  
+  .timeline {
+    border-left: 4px solid rgb(202, 196, 196);
+    position: relative;
+    padding: 10px 0;
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding: 0px 0px;
+    padding-left: 160px;
+    transition: background-color 0.3s ease-in-out;
+    width: 700px;
+  }
+  
+  .timeline-content {
+    background: transparent;
+    padding: 6px;
+    color: black;
+  }
+  
+  .timeline-content h3 {
+  font-size: 34px;
+  /*bility */
+  }
+  .timeline-content p{
+    font-size: 20px;
+  }
+  
+  /* Animation */
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #43a724;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .timeline-item.active::before {
+    background: var(--secondary-color); /* Change to your desired active color */
+  }
+  

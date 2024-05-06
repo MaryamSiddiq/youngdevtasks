@@ -1,0 +1,383 @@
+/*section1*/
+.section1 {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    column-gap: 6%;
+}
+
+.left-col {
+    width: 49%;
+}
+
+.right-col {
+    width: 49%;
+}
+
+.left-col h1 {
+    font-size: 60px;
+    font-weight: 760;
+    padding: 0px;
+    margin: 0px;
+}
+
+.left-col h6 {
+    font-size: 48px;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+    color: #43a724;
+}
+
+.left-col p {
+    font-size: 24px;
+}
+
+.text-animation {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.text-animation h6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeInOut 12s linear infinite;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    8% {
+        opacity: 0;
+    }
+
+    10%,
+    40% {
+        opacity: 1;
+    }
+
+    42%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.text-animation h6:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.text-animation h6:nth-child(2) {
+    animation-delay: 4s;
+    /* Adjust delay as needed */
+}
+
+.text-animation h6:nth-child(3) {
+    animation-delay: 8s;
+    /* Adjust delay as needed */
+}
+
+.col-images{
+    display: flex;
+    column-gap: 2%;
+    margin-top: 48px;
+}
+.col-buttons{
+    display: flex;
+    column-gap: 2%;
+    margin-top: 40px;
+}
+
+.btn1{
+    background-color: #43a724;
+    color: white;
+    border: 1px solid #43a724;
+    border-radius: 34px;
+    padding: 20px;
+    width: 200px;
+  font-weight: 550;
+cursor: pointer;
+margin-top: 20px;
+
+}
+
+.btn2{
+    background-color: white;
+    color: #43a724;
+    border: 2px solid #43a724;
+    border-radius: 34px;
+    padding: 20px;
+    width: 200px;
+  font-weight: 600;
+cursor: pointer;
+margin-top: 20px;
+}
+
+/*section2*/
+.section2 {
+    padding-top: 10%;
+    box-sizing: border-box;
+ text-align: center;
+ margin-left: 20%;
+ margin-right: 20%;
+ padding-bottom: 6%;
+}
+
+.section2 h1 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.section2 p {
+    font-size: 20px;
+}
+
+/*section3*/
+.section3{
+    padding-left: 4%;
+    padding-right:4%;
+}
+.carousel-wrapper {
+    width: 98%;
+    overflow: hidden;
+    background-color: #43a724;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .card-carousel {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition for sliding */
+  }
+
+  .card {
+    flex: 0 0 auto;
+    width: 320px; /* Adjust the width of each card */
+    margin-right: 20px; /* Adjust the space between cards */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0; /* Rounded corners only on top */
+  }
+
+  .card-content {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  .center{
+    align-items: center;
+    text-align: center;
+  }
+  /*section4*/
+
+  .section4{
+    padding-left: 0%;
+    padding-right:4%;
+    padding-top: 8%;
+    display: flex;
+    column-gap: 4%;
+    padding-bottom:8%;
+}
+
+
+.section6{
+    padding-left: 6%;
+    padding-right:2%;
+    padding-top: 9%;
+    display: flex;
+    column-gap: 4%;
+    padding-bottom:8%;
+}
+.col-img{
+    width:49%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 230px;
+}
+
+  
+  .col-img {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeInLeft 1s forwards;
+  }
+  
+  .moving-image {
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moveUpDown 3s ease-in-out infinite alternate;
+  }
+  
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px); /* Move left initially */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /* Move to original position */
+    }
+  }
+@keyframes moveUpDown {
+    0% {
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      transform: translate(-50%, -52%); /* Move up slightly */
+    }
+  }
+.col-content{
+    width:49%;
+}
+.col-content h2{
+    font-size: 49px;
+    margin-top: 0px;
+}
+
+.col-content p{
+    font-size: 20px;
+}
+.row1 .icon-box p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.row1{
+    display: flex;
+    column-gap: 6%;
+}
+.icon-box {
+    display: flex;
+    padding: 10px;
+    width:60%;
+    column-gap: 16%;
+    
+  }
+  .icon-box i{
+    color: #43a724;
+    font-size: 26px;
+  }
+  
+  .icon-box .description {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /*section7*/
+  
+.section7{
+    padding-left: 6%;
+    padding-right:6%;
+    padding-top: 4%;
+    display: flex;
+    column-gap: 4%;
+    padding-bottom:4%;
+}
+  .timeline {
+    width: 49%;
+  }
+  .colimg{
+    width: 49%;
+
+  }
+  .timeline-item {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-box {
+    width: 55px; /* Adjust the width of the box */
+    height: 55px; /* Adjust the height of the box */
+; /* Adjust the background color */
+    border-radius: 5px;
+    border: 1px solid #43a724;
+    margin-right: 40px;
+  }
+  
+
+
+  /**Section Internships*/
+
+  
+.internship{
+  padding-left: 6%;
+  padding-right:6%;
+  padding-top: 4%;
+  column-gap: 4%;
+  padding-bottom:4%;
+  display: flex}
+  .box:hover{
+    box-shadow: 0 14px 12px rgba(0.3, 0.1, 0.1, 0.3); /* Add box shadow */
+
+  }
+.box{
+  border: 1px solid rgb(196, 190, 190);
+  border-radius: 20px;
+  z-index: 1;
+  width: 30%;
+}
+.box img{
+  border-radius: 20px;
+  height:320; width:394
+}
+.box h2{
+  padding-left: 16px;
+}
+.box-button{
+  background-color: #43a724;
+  color: white;
+  padding: 16px;
+  align-items: right;
+  border-radius: 4px;
+  border: none;
+  margin-left: 67%;
+  margin-bottom: 4%;
+  width:30%;
+  cursor: pointer;
+}
+.divider {
+  width: 90%;
+  height: 1px; /* Adjust the height of the divider */
+  background-color: #ccc; /* Color of the divider */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+.intern-content{
+  padding-left: 6%;
+  padding-right:6%;
+  padding-top: 10%;
+  column-gap: 4%;
+  padding-bottom:4%;
+  display: flex
+}
+.left-content{
+  width:43%;
+}
+.left-content p{
+  font-size:24px;
+}
